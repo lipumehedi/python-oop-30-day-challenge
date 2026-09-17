@@ -8,6 +8,9 @@ car1 = Car("Toyota", "Prius", 2022)
 car2 = Car("Honda", "Civic", 2024)
 
 
-print(car1.brand)
-print(car1.model)
-print(car1.year)
+print("Brand:", car1.brand)
+print("Model:",car1.model)
+print("Year:",car1.year)
+print("\nBrand:", car2.brand)
+print("Model:",car2.model)
+print("Year:",car2.year)
