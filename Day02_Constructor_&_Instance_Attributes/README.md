@@ -1,3 +1,4 @@
+
 ## Day 2 – Constructor & Instance Attributes
 
 Practiced Python constructors and instance attributes using multiple real-world examples.
