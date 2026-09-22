@@ -37,5 +37,4 @@ python
 for animal in animals:
    print(animal.speak())
 
-
 Different objects can implement the same `speak()` method differently.
