@@ -10,5 +10,5 @@ product1 = Product("Laptop", 80000)
 product2 = Product("Desktop", 80000)
 product3 = Product("Mouse", 1500)
 
-print(product1 == product2)  # True
-print(product1 == product3)  # False
+print(product1 == product2)  
+print(product1 == product3)  
