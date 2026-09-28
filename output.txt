@@ -1,0 +1,3 @@
+Hello, Lipu!
+I am learning Python.
+Today I am practicing Context Managers.
