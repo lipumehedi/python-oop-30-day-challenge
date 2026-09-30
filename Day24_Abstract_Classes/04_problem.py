@@ -11,7 +11,7 @@ class CreditCardPayment(Payment):
 
 class PayPalPayment(Payment):
     def pay(self, amount):
-        return f"Paid ¥{amount} using Credit Card"
+        return f"Paid ¥{amount} using PayPal"
 
 credit_card = CreditCardPayment()
 paypal = PayPalPayment()
