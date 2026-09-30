@@ -34,7 +34,3 @@ This folder contains practical Python OOP exercises for understanding Method Res
 
 * Python 3
 * Object-Oriented Programming (OOP)
-
-## Author
-
-Mehedi Lipu
