@@ -1,23 +1,24 @@
 class Employee:
-
     def __init__(self, name, employee_id, position, salary):
+        if not name:
+            raise valueError("Employee name cannot be empty.")
+        
+        if not employee_id:
+            raise valueError("Employee ID cannot be empty.")
+        
+        if not position:
+            raise valueError("Employee position cannot be empty.")
+        
+        if salary <= 0:
+            raise ValueError("Salary must be greater than 0.")
+        
         self.name = name
         self.employee_id = employee_id
         self.position = position
         self.salary = salary
-
+    
     def show_employee(self):
         print(f"Name: {self.name}")
         print(f"Employee ID: {self.employee_id}")
         print(f"Position: {self.position}")
-        print(f"Salary: ¥{self.salary}")
-
-
-employee = Employee(
-    "Mehedi Lipu",
-    "E001",
-    "Python Developer",
-    350000
-)
-
-employee.show_employee()
+        print(f"Salary: ¥{self.salary}")        
